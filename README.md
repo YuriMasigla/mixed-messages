@@ -1,5 +1,5 @@
-# Project Name
-> Here goes your awesome project description!
+# Ace Attorney Mixed Messages
+> A message generator that outputs a random quote from the Ace Attorney Series to the console every time the program is run
 
 ## Table of contents
 * [General info](#general-info)
@@ -12,38 +12,39 @@
 * [Contact](#contact)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+This is a JavaScript program that runs in a command line interface through Node.js. When it is run, it randomly selects an Ace Attorney quote from a predetermined array of quotes and outputs the quote and the character who said the quote to the console. This project was made in partial fulfillment of the requirements for the Full Stack Enginner Career Path in Codecademy.
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+This is an example output of the program
+
+![Example Output](./img/example-output.png)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* JavaScript
+* Node.js v12.19.0
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
-
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
+1. Install [Node.js](https://nodejs.org/en/) to your computer (if not yet installed). 
+2. Access the directory of the repository in the Command Line
+3. Run the following command to execute the program:
+```
+node script.js
+```
 
 ## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+Features of this program include:
+* Can output a total of 11 default quotes
+* Lets you add more quotes by using the addQuotes() function in the script.js file
 
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+Things that might be added in the future:
+* An added GUI (Graphical User Interface)
+* HTML support allowing for it to run in browsers
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is: _finished, features can be added_
 
 ## Inspiration
-Add here credits. Project inspired by..., based on...
+This project was inspired by one of the game franchises that I love most, Ace Attorney.
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@YuriMasigla](https://github.com/YuriMasigla/) - feel free to contact me on discord YuriNotYaoi#5333!
